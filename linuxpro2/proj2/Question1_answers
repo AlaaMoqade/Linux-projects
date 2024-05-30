@@ -1,0 +1,58 @@
+q1) find / -name "password" 2> result.txt >errors.txt
+......................................................
+
+q2)  vi forever 
+
+q3) chmod +x forever
+    PATH=$PATH:.
+    forever& forever&
+..........................
+
+q4) forever
+    ^z
+    bg %3 
+    forever +^z
+    bg %4 
+    kill %3 
+    fg %4 
+    ^z
+    jobs > jobfile.txt
+........................................................
+
+q5) forever& forever& forever& forever& forever& forever& 
+    kill -15 4401
+    kill -15 4402
+    kill -15 4403
+    kill -15 4404
+    kill -15 4405
+    kill -15 4406
+.......................................................
+
+q6) forever &
+    kill -SIGSTOP %1
+    bg %1
+......................................................
+
+q7) kill $(jobs -p)
+
+q8) myprj2var=project
+    export myprj2var
+    csh
+    % echo $myprj2var
+.....................................................
+
+q9) mkdir ~/prj2
+    export PATH=$PATH:~/prj2
+    echo $PATH
+....................................................
+
+Q10)
+1- nice command : allow other user to run their processes at a higher priority,and its does not termainated until the command does.
+
+ex: nice -n 6 ps -l
+
+2- renice command : allow user to aadjust the priority of a procss that is already running then terminates immediately . 
+
+ex: renice -n 14 4697
+
+

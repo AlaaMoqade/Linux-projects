@@ -1,0 +1,81 @@
+Alaa Moqade 1211910
+this the solve all question from 1 to 11:
+q1:
+to solve tree as flowing :
+
+mkdir 1211910_prj1
+touch 1211910_prj1/command.txt
+mkdir 1211910_prj1/Myproj
+mkdir 1211910_prj1/Semesters
+mkdir 1211910_prj1/Myproj/Audio
+mkdir 1211910_prj1/Myproj/Pictures
+mkdir 1211910_prj1/Myproj/Pictures/Personal
+touch 1211910_prj1/Myproj/Pictures/Personal/best_palaces.txt
+touch 1211910_prj1/Myproj/Pictures/Personal/myInfo.txt
+mkdir 1211910_prj1/Myproj/Pictures/Others
+mkdir 1211910_prj1/Myproj/Videos
+mkdir 1211910_prj1/Semesters/Second2024
+mkdir 1211910_prj1/Semesters/Second2024/Comp242
+mkdir 1211910_prj1/Semesters/Second2024/Comp333
+mkdir 1211910_prj1/Semesters/Second2024/Comp233
+mkdir 1211910_prj1/Semesters/First2024
+mkdir 1211910_prj1/Semesters/First2024/Comp311
+touch 1211910_prj1/Semesters/First2024/Comp311/commands
+mkdir 1211910_prj1/Semesters/First2024/Comp2311
+touch 1211910_prj1/Semesters/First2024/Comp2311/projects.
+touch 1211910_prj1/Semesters/First2024/Comp2311/practical
+mkdir 1211910_prj1/Semesters/Oldsemesters
+______________________________________________________________________
+
+q2:
+:map! B 5G4dw:wq!^M
+:map C G3k3yyP:wq!^M
+______________________________________________________________________
+q3:
+1_ ln 1211910_prj1/Myproj/Pictures/Personal/myInfo.txt 1211910_prj1/Semesters/Second2024/linkmyInfo
+
+2- ln -s ../Semesters/First2024 ./1211910_prj1/Myproj/link_First2024
+
+so the difference between the 1,2, command is:
+
+1- is a hardlink and its create another directory entry pointing directly to the target file indo.
+
+2- its a softlink and its point to the target file and dierctory by sorting the bath information.
+_______________________________________________________________________
+q4:
+i write me information on the myInfo.txt file
+_______________________________________________________________________
+
+q5:
+A = 5G$
+B = G$
+c = 7G$2yy
+D = /color then 2dw
+E = G3yw1G$P
+______________________________________________________________________
+q6:
+cp /etc/g[a-h]|c[a-h]* .
+________________________________________________________________________
+q7: 
+cd ~
+cp -r 1211910_prj1/Semesters/First2024/Comp2311/* 1211910_prj1/Semesters/Oldsmesters/
+________________________________________________________________________
+q8:
+touch 1211910_prj1/Myproj/Semesters/Others/html
+
+when use rmdir its not work because the dierctory comp333 not empty,so we must use rm -rf this will can delete directory if was empty or not.
+________________________________________________________________________
+q9: chmod 306 Comp242
+______________________________________________________________________
+q10:
+umask 025
+umask 035
+umask 034
+umask 024
+umask 135
+umask 134
+umask 124
+umask 125
+_____________________________________________________________________
+
+q11: stat myInfo .txt

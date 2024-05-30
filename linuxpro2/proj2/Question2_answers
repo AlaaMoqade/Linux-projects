@@ -1,0 +1,38 @@
+q1) grep -i hamdan prj2_passwwd | grep /bin/csh | cut -d: -f1 >Qusetion2_answers
+
+....................
+
+q2) grep comp311 prj2_passwd | sort -k3 -t: -nr | cut -d: -f5 | cut -d_ -f2
+    | tr "a-z" "A-Z"
+......................
+
+q3) grep /bin/ksh prj2_passwd | cut -d: -f5 | tr "_" " " | tr "a-z" "A-Z" >
+    ksh_shellusers
+
+....................
+
+q4) grep -i ':/bin/bash$' prj2_passwd | tail -n 5 | cut -d: -f5 | tr "_" " " | 
+    tr "a-z" "A-Z" | sort -r > users.txt
+...................
+
+q5) cut -d: -f5 prj2_passwd | grep -i [a-h]$ | cut -d_ -f1 | sort -u > a_hsorted.txt
+.......................
+
+q6) grep -v /bin/ksh prj2_passwd | cut -d: -f5 | tr "a-z" "A-Z" | sort -k1 -t:
+........................
+
+q7) grep u118 prj2_passwd | sort -t: -k3 -n -r| cut -d: -f5 | cut -d" " -f1
+    > u118.txt
+.........................
+
+q8) grep -L -r passwd /etc/
+..........................
+
+q9) find /ect -name "[a-j]*" | wc -l
+ 
+..........................
+
+q10) grep comp322 prj2_passwd | cut -d: -f5 | cut -d" " -f1 | cut -c1 | tr -d "Xn" ; echo
+
+>>>>>>>>Done>>>>>>>>>>>> 
+
